@@ -22,12 +22,11 @@ $email_body = "You have received a new message from your website contact form.\n
 $headers = "From: noreply@jeremy-aldrich.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";
 //mail($to,$email_subject,$email_body,$headers);
-mail=mail($to, "Subject: $email_subject",$message );
+$mail=mail($to, "Subject: $email_subject",$message );
 if($mail){
-  echo "Thank you for using our mail form";
+echo "Thank you for using our mail form";
 }else{
-  echo "Mail sending failed.";
-}
+echo "Mail sending failed.";
 }
 return true;
 ?>
