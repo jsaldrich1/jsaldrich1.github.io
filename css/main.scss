@@ -1,0 +1,77 @@
+$dark-maroon: #2A0F03;
+$reg-maroon: #5C2D06;
+$reg-brown: #915D14;
+$light-brown: #C58326;
+$reg-yellow: #E7C946;
+$very-light-yellow: #F2F07D;
+$mystery-color: #F2FAB3;
+$light-white: #FAFFED
+$main-font: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$secondary-font: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+body {
+  font-family: $main-font;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 20px;
+}
+
+p.small {
+  font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:active {
+  color: $reg-brown;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $secondary-font;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+hr.star-light,
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+
+hr.star-light {
+  border-color: ;
+}
+
+hr.star-light:after {
+  background-color: $reg-maroon;
+  color:
+}
+
+hr.star-primary {
+  border-color: $
+}
