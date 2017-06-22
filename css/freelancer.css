@@ -1,10 +1,15 @@
-/*!
+14915F/*!
  * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  * OG colors: #18BC9C (main), #2C3E50 (second), #233140 (footer)
  * Main: #0278AE, Secondary: #51DACF, Tertiary: #9EF5CF, Accent: #E8FFC1
- * #2A0F03	#5C2D06	#915D14	#C59826	#E7CE46	#F2F07D	#F2FAB3	#FAFFED
+ * #2A0F03	#5C2D06	#14915F	#C59826	#E7CE46	#F2F07D	#F2FAB3	#FAFFED
+ * June Colors:
+    Dark Green: #032A08
+    Light Green: #14915F
+    Blue: #5FD2EC
+    Grey: #D2E1FF
  */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -21,7 +26,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #915D14; /* Secondary */
+  color: #14915F; /* Light Green */
   outline: none;
 }
 h1,
@@ -57,22 +62,22 @@ hr.star-light {
   border-color: ;
 }
 hr.star-light:after {
-  background-color: #915D14;  /* Secondary */
+  background-color: #14915F;  /* Light Green */
   color: #FAFFED;
 }
 hr.star-primary {
-  border-color: #2A0F03;  /* Main */
+  border-color: #032A08;  /* Dark Green */
 }
 hr.star-primary:after {
   background-color: #FAFFED;
-  color: #2A0F03;   /* Main */
+  color: #032A08;   /* Dark Green */
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #915D14;  /* Secondary */
+  background: #14915F;  /* Light Green */
   color: #FAFFED;
 }
 header .container {
@@ -107,7 +112,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2A0F03;  /* Main */
+  background: #032A08;  /* Dark Green */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -132,7 +137,7 @@ header .intro-text .skills {
   color: #FAFFED;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #915D14;  /* Secondary */
+  color: #14915F;  /* Light Green */
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -141,13 +146,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: #FAFFED;
-  background: #915D14;  /* Secondary */
+  background: #14915F;  /* Light Green */
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: #FAFFED;
-  background: #915D14;  /* Secondary */
+  background: #14915F;  /* Light Green */
 }
 .navbar-custom .navbar-toggle {
   color: #FAFFED;
@@ -157,9 +162,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #915D14;  /* Secondary */
+  background-color: #14915F;  /* Light Green */
   color: #FAFFED;
-  border-color: #915D14;  /* Secondary */
+  border-color: #14915F;  /* Light Green */
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -189,7 +194,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #915D14;  /* Secondary */
+  background: #14915F;  /* Light Green */
   color: #FAFFED;
 }
 @media (max-width: 767px) {
@@ -292,7 +297,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #915D14;  /* Secondary */
+  color: #14915F;  /* Light Green */
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -305,14 +310,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2A0F03;  /* Main */
+  background-color: #032A08;  /* Dark Green */
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #915D14;  /* Secondary */
+  background-color: #14915F;  /* Light Green */
 }
 .btn-outline {
   color: #FAFFED;
@@ -326,14 +331,14 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #915D14;  /* Secondary */
+  color: #14915F;  /* Light Green */
   background: #FAFFED;
   border: solid 2px #FAFFED;
 }
 .btn-primary {
   color: #FAFFED;
-  background-color: #2A0F03;  /* Main */
-  border-color: #2A0F03;  /* Main */
+  background-color: #032A08;  /* Dark Green */
+  border-color: #032A08;  /* Dark Green */
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -365,17 +370,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #2A0F03;  /* Main */
-  border-color: #2A0F03;  /* Main */
+  background-color: #032A08;  /* Dark Green */
+  border-color: #032A08;  /* Dark Green */
 }
 .btn-primary .badge {
-  color: #2A0F03;  /* Main */
+  color: #032A08;  /* Dark Green */
   background-color: #FAFFED;
 }
 .btn-success {
   color: #FAFFED;
-  background-color: #915D14;  /* Secondary */
-  border-color: #915D14;  /* Secondary */
+  background-color: #14915F;  /* Light Green */
+  border-color: #14915F;  /* Light Green */
   font-weight: 700;
 }
 .btn-success:hover,
@@ -407,11 +412,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #915D14;  /* Secondary */
-  border-color: #915D14;  /* Secondary */
+  background-color: #14915F;  /* Light Green */
+  border-color: #14915F;  /* Light Green */
 }
 .btn-success .badge {
-  color: #915D14;  /* Secondary */
+  color: #14915F;  /* Light Green */
   background-color: #FAFFED;
 }
 .btn-social {
@@ -483,7 +488,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2A0F03;  /* Main */
+  background-color: #032A08;  /* Dark Green */
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -494,7 +499,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2A0F03;  /* Main */
+  background-color: #032A08;  /* Dark Green */
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
