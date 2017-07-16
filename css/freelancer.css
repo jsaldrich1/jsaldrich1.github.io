@@ -69,7 +69,7 @@ hr.star-primary {
   border-color: #032A08;  /* Dark Green */
 }
 hr.star-primary:after {
-  background-color: #FAFFED;
+  background-color: #FFFFFF;
   color: #032A08;   /* Dark Green */
 }
 .img-centered {
