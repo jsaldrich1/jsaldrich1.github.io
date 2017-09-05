@@ -1,77 +1,110 @@
-$dark-maroon: #2A0F03;
-$reg-maroon: #5C2D06;
-$reg-brown: #915D14;
-$light-brown: #C58326;
-$reg-yellow: #E7C946;
-$very-light-yellow: #F2F07D;
-$mystery-color: #F2FAB3;
-$light-white: #FAFFED
+$light-white: rgba(255, 255, 255, 0.9);
 $main-font: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $secondary-font: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$color1: rgba(216, 221, 239, 1);
+$color2: rgba(120, 192, 224, 1);
+$color2a: rgba(120, 192, 224, 0.8);
+$color3: rgba(114, 147, 160, 1);
+$color4: rgba(69, 182, 156, 1);
+$color5: rgba(33, 209, 159, 1);
 
-body {
-  font-family: $main-font;
-  overflow-x: hidden;
+.img-responsive {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-p {
-  font-size: 20px;
+.profilePic {
+  border-radius: 128px;
 }
 
-p.small {
-  font-size: 16px;
+.btn-social {
+  border: 2px solid $light-white;
+  color: $light-white;
+  &:hover {
+    color: $color2;
+  }
 }
 
 a,
 a:hover,
 a:focus,
 a:active,
-a:active {
-  color: $reg-brown;
-  outline: none;
+a.active {
+  color: $color4;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $secondary-font;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-hr.star-light,
-hr.star-primary {
-  padding: 0;
-  border: none;
-  border-top: solid 5px;
-  text-align: center;
-  max-width: 250px;
-  margin: 25px auto 30px;
-}
-
-hr.star-light:after,
-hr.star-primary:after {
-  content: "\f005";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -0.8em;
-  font-size: 2em;
-  padding: 0 0.25em;
-}
 
 hr.star-light {
-  border-color: ;
-}
-
-hr.star-light:after {
-  background-color: $reg-maroon;
-  color:
+  &:after {
+    background-color: $color2;
+  }
 }
 
 hr.star-primary {
-  border-color: $
+  border-color: $color2;
+  &:after {
+    color: $color2;
+  }
+}
+
+header {
+  background: $color2;
+  color: $light-white;
+}
+
+section.success {
+  background: $color2;
+}
+
+.navbar-custom {
+  background: $color3;
+}
+
+.navbar-custom .navbar-nav li a {
+  color: $light-white;
+}
+.navbar-custom .navbar-nav li a:hover {
+  color: $color2;
+  outline: none;
+}
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+  color: $light-white;
+}
+.navbar-custom .navbar-nav li.active a {
+  color: $light-white;
+  background: $color2;
+}
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  color: $light-white;
+  background: $color2;
+}
+.navbar-custom .navbar-toggle {
+  color: $light-white;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-color: $light-white;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: $color2;
+  color: $light-white;
+  border-color: $color2;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+  background: $color2a;
+  & .caption-content {
+  color: $light-white;
+  }
+}
+
+footer {
+  & .footer-above {
+    background-color: $color3;
+  }
+  & .footer-below {
+    background-color: $color3;
+  }
 }

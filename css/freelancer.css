@@ -3,13 +3,6 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  * OG colors: #18BC9C (main), #2C3E50 (second), #233140 (footer)
- * Main: #0278AE, Secondary: #51DACF, Tertiary: #9EF5CF, Accent: #E8FFC1
- * #2A0F03	#5C2D06	#14915F	#C59826	#E7CE46	#F2F07D	#F2FAB3	#FAFFED
- * June Colors:
-    Dark Green: #032A08
-    Light Green: #14915F
-    Blue: #5FD2EC
-    Grey: #D2E1FF
  */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -122,13 +115,13 @@ header .intro-text .skills {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  color: #FAFFED;
+  color: white;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #FAFFED;
+  color: white;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
@@ -488,7 +481,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #032A08;  /* Dark Green */
+  background-color: #032A08;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -499,7 +492,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #032A08;  /* Dark Green */
+  background-color: #032A08;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -510,12 +503,4 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
-}
-
-.img-responsive {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.profilePic {
-  border-radius: 128px;
 }
