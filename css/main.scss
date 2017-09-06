@@ -1,4 +1,5 @@
 $light-white: rgba(255, 255, 255, 0.9);
+$light-black: rgba(25, 25, 25, 0.8);
 $main-font: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $secondary-font: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $color1: rgba(216, 221, 239, 1);
@@ -53,6 +54,7 @@ header {
 
 section.success {
   background: $color2;
+  color: $light-white;
 }
 
 .navbar-custom {
@@ -93,14 +95,22 @@ section.success {
   border-color: $color2;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption {
-  background: $color2a;
-  & .caption-content {
-  color: $light-white;
+#portfolio {
+  color: $light-black;
+  & .portfolio-item .portfolio-link .caption {
+    background: $color2a;
+    & .caption-content {
+      color: $light-white;
+    }
   }
 }
 
+#contact {
+  color: $light-black;
+}
+
 footer {
+  color: $light-white;
   & .footer-above {
     background-color: $color3;
   }

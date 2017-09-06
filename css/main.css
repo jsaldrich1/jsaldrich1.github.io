@@ -30,7 +30,8 @@ header {
   color: rgba(255, 255, 255, 0.9); }
 
 section.success {
-  background: #78c0e0; }
+  background: #78c0e0;
+  color: rgba(255, 255, 255, 0.9); }
 
 .navbar-custom {
   background: #7293a0; }
@@ -68,14 +69,21 @@ section.success {
   color: rgba(255, 255, 255, 0.9);
   border-color: #78c0e0; }
 
-#portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(120, 192, 224, 0.8); }
-  #portfolio .portfolio-item .portfolio-link .caption .caption-content {
-    color: rgba(255, 255, 255, 0.9); }
+#portfolio {
+  color: rgba(25, 25, 25, 0.8); }
+  #portfolio .portfolio-item .portfolio-link .caption {
+    background: rgba(120, 192, 224, 0.8); }
+    #portfolio .portfolio-item .portfolio-link .caption .caption-content {
+      color: rgba(255, 255, 255, 0.9); }
 
-footer .footer-above {
-  background-color: #7293a0; }
-footer .footer-below {
-  background-color: #7293a0; }
+#contact {
+  color: rgba(25, 25, 25, 0.8); }
+
+footer {
+  color: rgba(255, 255, 255, 0.9); }
+  footer .footer-above {
+    background-color: #7293a0; }
+  footer .footer-below {
+    background-color: #7293a0; }
 
 /*# sourceMappingURL=main.css.map */
