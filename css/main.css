@@ -17,8 +17,10 @@ a:active,
 a.active {
   color: #45b69c; }
 
-hr.star-light:after {
-  background-color: #78c0e0; }
+hr.star-light {
+  color: #fff; }
+  hr.star-light:after {
+    background-color: #78c0e0; }
 
 hr.star-primary {
   border-color: #78c0e0; }
