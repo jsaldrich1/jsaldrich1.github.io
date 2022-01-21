@@ -13,6 +13,26 @@ font-family: poppins, sans-serif;
 font-weight: 400;
 font-style: normal; */
 
+:root {
+  --text: #G2G2G2;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+#header-area {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+#main-content {
+  display: grid;
+  grid-template-columns: 1fr 4fr 4fr 1fr;
+  padding-bottom: 2.5rem;
+}
+
 h1 {
   font-family: freight-big-pro, serif;
   font-weight: 400;
@@ -27,8 +47,10 @@ p {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
 
 .footer-link {
@@ -37,4 +59,5 @@ footer {
   font-style: normal;
   font-size: 1.25rem;
   text-decoration: none;
+  color: var(--text);
 }
