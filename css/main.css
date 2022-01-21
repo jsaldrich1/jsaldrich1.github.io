@@ -14,7 +14,8 @@ font-weight: 400;
 font-style: normal; */
 
 :root {
-  --text: #G2G2G2;
+  --text: #222222;
+  --medium: #C4C4C4;
 }
 
 body {
@@ -50,6 +51,15 @@ header {
   grid-column: 12 / 13;
 }
 
+#logo-header {
+  background-color: var(--medium);
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+  grid-column: 2 / 3;
+  margin-top: 2rem;
+}
+
 .hero-text {
   grid-column: 2 / 8;
 }
@@ -66,8 +76,9 @@ header {
   grid-column: 2 / 4;
   margin: 2rem;
   padding: 1rem;
-  border: 1px solid black;
-  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--medium);
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
 }
 
 h1 {
@@ -82,6 +93,16 @@ h2 {
   font-weight: 500;
   font-style: normal;
   font-size: 2rem;
+}
+
+.img-study {
+  background-color: var(--text);
+  border: 1px solid black;
+  grid-column: 1 / 7;
+}
+
+.study-content {
+  grid-column: 7 / 11;
 }
 
 p {
