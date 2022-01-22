@@ -131,6 +131,7 @@ h2 {
   border-radius: 0;
   border: 1px solid black;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .btn-case-study:hover {
@@ -149,6 +150,8 @@ footer {
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
 }
 
 .footer-link {
@@ -158,5 +161,22 @@ footer {
   font-size: 1.25rem;
   text-decoration: none;
   color: var(--text);
-  padding-bottom: 1rem;
+  padding: 3rem 0 3rem 0;
+}
+
+#footer-copy {
+  grid-column: 1 / 4;
+  margin-left: 2rem;
+}
+
+#footer-email {
+  grid-column: 7 / 9;
+}
+
+#footer-linkedin {
+  grid-column: 9 / 10;
+}
+
+#footer-resume {
+  grid-column: 10 / 11;
 }
