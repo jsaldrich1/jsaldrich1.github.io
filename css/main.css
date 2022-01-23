@@ -16,8 +16,11 @@ font-style: normal; */
 :root {
   --text: #222222;
   --medium: #e69a9a;
-  --light: #e9e9e9;
+  --light: #efe7e3;
   --dark: #2F2F2F;
+  --white: #FFFFFF;
+  --ifc-color: #ffe9af;
+  --sketchy-color: #bef2c3;
 }
 
 html {
@@ -60,10 +63,8 @@ header {
 }
 
 #logo-header {
-  background-color: var(--medium);
   height: 80px;
   width: 80px;
-  border-radius: 100px;
   grid-column: 2 / 3;
   margin-top: 2rem;
 }
@@ -87,6 +88,14 @@ header {
   background-color: var(--medium);
   display: grid;
   grid-template-columns: repeat(10, 1fr);
+}
+
+#fixed-calendar {
+  background-color: var(--ifc-color);
+}
+
+#sketchy-characters {
+  background-color: var(--sketchy-color);
 }
 
 h1 {
@@ -143,7 +152,8 @@ h2 {
 }
 
 .btn-case-study:hover {
-  background-color: var(--light);
+  background-color: var(--text);
+  color: var(--light);
 }
 
 p {
