@@ -28,3 +28,8 @@ header {
 .img-study {
     grid-column: 1 / 13;
 }
+
+.bear-context {
+    width: 100%;
+    grid-column: 1 / 12;
+}
