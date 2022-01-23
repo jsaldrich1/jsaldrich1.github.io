@@ -22,14 +22,25 @@ header {
 
 .study-container {
     grid-column: 3 / 11;
-    padding-top: 4rem;
+    /* padding-top: 4rem; */
+}
+
+.study-card-h2 {
+    grid-column: 1 / 13;
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
 
 .img-study {
     grid-column: 1 / 13;
 }
 
-.bear-context {
+.bear-hello {
+    grid-column: 8 / 13;
     width: 100%;
+}
+
+.bear-context {
     grid-column: 1 / 12;
+    width: 100%;
 }
