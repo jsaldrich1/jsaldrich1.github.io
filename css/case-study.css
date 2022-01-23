@@ -19,3 +19,7 @@ header {
     padding: 1rem;
     border-radius: 1rem;
 }
+
+.problem-statement {
+    grid-column: 1 / 11;
+}
