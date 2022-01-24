@@ -97,6 +97,7 @@ header {
   background-color: var(--medium);
   display: grid;
   grid-template-columns: repeat(10, 1fr);
+  box-shadow: 2px 4px 4px rgba(20, 20, 20, 0.1);
 }
 
 #quiz-editor {
@@ -185,6 +186,11 @@ p {
   font-size: 1rem;
 }
 
+#footer-area {
+  max-width: 1200px;
+  margin: auto;
+}
+
 footer {
   position: absolute;
   bottom: 0;
@@ -192,6 +198,7 @@ footer {
   height: 2.5rem;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
+  max-width: 1200px;
 }
 
 .footer-link {
@@ -199,6 +206,7 @@ footer {
   font-weight: 400;
   font-style: normal;
   font-size: 1.25rem;
+  grid-column: 1 / 13;
   text-decoration: none;
   color: var(--text);
   padding: 3rem 0 3rem 0;
@@ -219,4 +227,10 @@ footer {
 
 #footer-resume {
   grid-column: 10 / 11;
+}
+
+@media (max-width: 1200px) {
+  #main-content {
+    grid-template-columns: 20px 1fr 1fr 20px;
+  }
 }
