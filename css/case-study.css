@@ -2,6 +2,11 @@ header {
     padding-bottom: 4rem;
 }
 
+.study-container {
+    grid-column: 3 / 11;
+    /* padding-top: 4rem; */
+}
+
 .study-card {
     grid-column: 2 / 4;
     margin: 3rem 2rem 3rem 2rem;
@@ -11,20 +16,26 @@ header {
 }
 
 .quote {
-    grid-column: 1 / 8;
-}
-
-.quote-left {
     background-color: var(--white);
     padding: 1rem;
     border-radius: 1rem;
 }
 
-.study-container {
-    grid-column: 3 / 11;
-    /* padding-top: 4rem; */
+.quote-container-left {
+    grid-column: 1 / 8;
 }
 
+.quote-left {
+    grid-column: 1 / 8;
+}
+
+.quote-right {
+    grid-column: 6 / 13;
+}
+
+.quote-container-right {
+    grid-column: 5 / 13;
+}
 .study-card-h2 {
     grid-column: 1 / 13;
     margin-top: 2rem;
@@ -42,5 +53,10 @@ header {
 
 .bear-context {
     grid-column: 1 / 12;
+    width: 100%;
+}
+
+.bear-camtasia {
+    grid-column: 1 / 5;
     width: 100%;
 }
