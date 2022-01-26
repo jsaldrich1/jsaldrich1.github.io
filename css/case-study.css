@@ -7,10 +7,18 @@ header {
 }
 
 .study-card {
-    grid-column: 2 / 4;
-    padding: 1rem;
+    grid-column: 2 / 6;
+    /* padding: 1rem; */
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+}
+
+#main-content {
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+  }
+  
+.hero-text {
+    grid-column: 3 / 11;
 }
 
 .quote {
