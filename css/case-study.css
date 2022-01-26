@@ -7,17 +7,25 @@ header {
 }
 
 .study-card {
-    grid-column: 2 / 4;
-    /* margin: 3rem 2rem 3rem 2rem; */
-    padding: 1rem;
+    grid-column: 2 / 6;
+    /* padding: 1rem; */
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+}
+
+#main-content {
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+  }
+  
+.hero-text {
+    grid-column: 3 / 11;
 }
 
 .quote {
     background-color: var(--white);
     padding: 1rem;
     border-radius: 1rem;
+    box-shadow: 2px 4px 4px rgba(40, 40, 40, .2);
 }
 
 .quote-container-left {
