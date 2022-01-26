@@ -18,6 +18,8 @@ header {
     background-color: var(--white);
     padding: 1rem;
     border-radius: 1rem;
+    /* border: 1px solid var(--text); */
+    box-shadow: 2px 4px 4px rgba(40, 40, 40, .2);
 }
 
 .quote-container-left {
