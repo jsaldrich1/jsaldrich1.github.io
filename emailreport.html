@@ -64,24 +64,29 @@
         <h1 class="hero-text">Email Reports</h1>
         <article class="study-card">
             <article class="quote-container-left quote-container">
-                <p class="quote study-content quote-left">Hey it's Jerbear. Let's talk about how even in 2022, email is still pretty important.</p>
+                <p class="quote study-content quote-left">Hey! It's Jerbear. Let's talk about how, even in 2022, email notifications are still a crucial way to communicate with users.</p>
             </article>
-            <img src="/img/Bear-Hello.png" class="bear-hello">
+            <img src="/img/Bear-Mail.png" class="bear-hello">
         </article>
         <article class="study-card">
             <article class="study-container problem-statement">
                 <h2 class="study-card-h2">Problem</h2>
-                <p class="study-content problem-text">Sometimes work gets done, we stop working on it and it becomes stale and unsustainable. That was the case for an email report that TechSmith Quizzing users receive.
-                <p class="study-content problem-text">When data is collected on a video quiz, the system sends an email report to the quiz owner. That email system was technically working, but I wanted to add a few requirements.</p>
+                <p class="study-content problem-text">Sometimes, in a frenzy to develop new and exciting features, things like notification emails can fall by the wayside. That was exactly the case for an automated email report sent to users of TechSmith Quizzing. It had not been updated since <year> and needed some TLC.
+                <p class="study-content problem-text">When a user takes a video quiz, the system sends an email report to the owner of the quiz. That email system was working, but I saw three areas for improvement.</p>
                 <h3 class="study-content problem-text">1. Images as Buttons</h3>
-                <p class="study-content problem-text">These emails were created circa 2012-2013, there were several elements that could be modernized - such as replacing images that were used as buttons with HTML and CSS.</p>
+                <p class="study-content problem-text">Many email clients block images – so a user viewing the email may not even see the call to action. Text inside an image can also render poorly due to being scaled up or down, making the text appear blurry to the user. And finally, images are expensive to create and difficult to swap out, so translating to other languages becomes cumbersome.</p>
                 <h3 class="study-content problem-text">2. Responsive</h3>
-                <p class="study-content problem-text">Devices have changed a lot since these emails were first developed. Viewing your reports on your phone was not a good time.</p>
+                <p class="study-content problem-text">Viewing these emails on a phone or tablet resulted in horizontal scroll bars and the content failed to respond to the user’s screen size and orientation. The content was created for a desktop screen and did not consider the growing number of devices and screen sizes. Additionally, we had data showing that many users were primarily accessing these emails from their phones.</p>
                 <h3 class="study-content problem-text">3. Accessibility</h3>
-                <p class="study-content problem-text">These reports were only available in three languages, while we had customers speaking eight. There were also no support for screen readers.</p>
+                <p class="study-content problem-text">These reports were only available in three languages, while we had customers speaking eight. There was no support for screen readers, no helper text for buttons, and no fallbacks if images were blocked or failed to load.</p>
             </article>
         </article>
         <article class="study-card">
+            <img src="/img/CMacQuiz.png" class="full-width-image">
+            <img src="/img/Bear-Publish.png" class="bear-left study-content">
+            <article class="quote-container-right study-container quote-container">
+                <p class="quote study-content quote-right">This is Camtasia. It's where cool people make great videos with awesome quizzes. But once they export they can never go back and fix things, so they gotta be really careful to not make any mistakes.</p>
+            </article>
             <article class="study-container competative-analysis">
                 <h2 class="study-card-h2">[Internal] Competitive Analysis</h2>
                 <p class="study-content journey-text">I looked around at what other departments and products within the company were using to create, manage, and send email. There were a couple options, and every choice provided better scalability, reliability, and analytics. In the end, I chose the system that allowed non-technical team members (like marketing) to interact with the templates: Sparkpost.</p>
