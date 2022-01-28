@@ -237,7 +237,8 @@ footer {
   grid-column: 1 / 13;
   text-decoration: none;
   color: var(--text);
-  padding: 3rem 0 3rem 0;
+  margin: 3rem 0 3rem 0;
+  padding-bottom: 3rem;
 }
 
 #footer-copy {
