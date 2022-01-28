@@ -48,6 +48,19 @@ header {
   grid-template-columns: repeat(12, 1fr);
 }
 
+.skip-nav-link {
+  position: absolute;
+  transform: translateY(-150%);
+  padding: 1rem;
+  text-decoration: none;
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.skip-nav-link:focus {
+  transform: translateY(0);
+}
+
 #header-area {
   max-width: 1200px;
   margin: auto;
@@ -224,7 +237,8 @@ footer {
   grid-column: 1 / 13;
   text-decoration: none;
   color: var(--text);
-  padding: 3rem 0 3rem 0;
+  margin: 3rem 0 3rem 0;
+  padding-bottom: 3rem;
 }
 
 #footer-copy {

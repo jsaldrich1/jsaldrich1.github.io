@@ -68,41 +68,41 @@
             <article class="quote-container-left quote-container">
                 <p class="quote study-content quote-left">Hey! It's Jerbear. Let's talk about how, even in 2022, email notifications are still a crucial way to communicate with users.</p>
             </article>
-            <img src="/img/Bear-Mail.png" class="bear-hello">
+            <img src="/img/Bear-Mail.png" class="bear-hello" alt="Jerbear dressed as a mail-delivery-bear giving you the best news.">
         </article>
         <article class="study-card">
             <article class="study-container problem-statement">
                 <h2 class="study-card-h2">Problem</h2>
                 <p class="study-content problem-text">Sometimes, in a frenzy to develop new and exciting features, things like notification emails can fall by the wayside. That was exactly the case for an automated email report sent to users of TechSmith Quizzing. It had not been updated since <year> and needed some TLC.
                 <p class="study-content problem-text">When a user takes a video quiz, the system sends an email report to the owner of the quiz. That email system was working, but I saw three areas for improvement.</p>
-                <h3 class="study-content problem-text">1. Images as Buttons</h3>
+                <h3 class="study-content problem-text">1. Remove Images as Buttons</h3>
                 <p class="study-content problem-text">Many email clients block images – so a user viewing the email may not even see the call to action. Text inside an image can also render poorly due to being scaled up or down, making the text appear blurry to the user. And finally, images are expensive to create and difficult to swap out, so translating to other languages becomes cumbersome.</p>
-                <h3 class="study-content problem-text">2. Responsive</h3>
+                <h3 class="study-content problem-text">2. Make it Responsive</h3>
                 <p class="study-content problem-text">Viewing these emails on a phone or tablet resulted in horizontal scroll bars and the content failed to respond to the user’s screen size and orientation. The content was created for a desktop screen and did not consider the growing number of devices and screen sizes. Additionally, we had data showing that many users were primarily accessing these emails from their phones.</p>
-                <h3 class="study-content problem-text">3. Accessibility</h3>
+                <h3 class="study-content problem-text">3. Maximize Accessibility</h3>
                 <p class="study-content problem-text">These reports were only available in three languages, while we had customers speaking eight. There was no support for screen readers, no helper text for buttons, and no fallbacks if images were blocked or failed to load.</p>
             </article>
         </article>
         <article class="study-card">
             <article class="study-container competative-analysis">
-                <h2 class="study-card-h2">[Internal] Competitive Analysis</h2>
+                <h2 class="study-card-h2">(Internal) Competitive Analysis</h2>
                 <p class="study-content journey-text">I looked around at what other departments and products within the company were using to create, manage, and send email. There were a couple options, and every choice provided better scalability, reliability, and analytics. In the end, I chose the system that allowed non-technical team members (like marketing) to interact with the templates: Sparkpost.</p>
-                <p class="study-content journey-text">The Design Manager for my team had been working on standardizing email designs across products and services, but hadn't yet implemented any of his ideas. It gave me a great head start on designing for my product and writing the HTML and CSS.</p>
             </article>
             <article class="study-container composing">
                 <h2 class="study-card-h2">Composing Email</h2>
+                <p class="study-content composing-text">There were some preliminary mockups for email template updates available in the design system - so I utilized those, while adjusting to fit the product. This helped me to produce finalized templates in an incredibly tight timeline while also establishing a unified standard for future products to ingest.</p>
                 <p class="study-content composing-text">The web has come a long way, but email remains a complex mess of old practices and standards. But that doesn't mean that we can't make the best of the basics. HTML and CSS are powerful, and replacing all the "images as buttons" with proper code, with alt text and responsiveness makes a huge impact on every user.</p>
             </article>
-            <img src="/img/Email-Details.png" class="full-width-image">
-            <img src="/img/Bear-value.png" class="bear-left study-content">
+            <img src="/img/Email-Details.png" class="full-width-image" id="img-email-details" alt="Example email pointing out alt text, various formatting of data by language, and buttons made from HTML and CSS.">
+            <img src="/img/Bear-value.png" class="bear-left study-content" alt="Jerbear is so proud that user data is more accessible now.">
             <article class="quote-container-right study-container quote-container">
                 <p class="quote study-content quote-right">Look at all this value! Kinda makes you want to check your inbox, huh?</p>
             </article>
             <img src="/img/Bear-value.png" class="bear-bottom-left study-content">
             <article class="study-container iterate">
                 <h2 class="study-card-h2">Outcome</h2>
-                <p class="study-content outcome-text">When Quiz Reports are sent out, users get a more modern looking email. They also can view that email across different screen sizes and devices, they can access the data with their screen reader or keyboard. If their email client blocks images, they can still see the call to action and other buttons.</p>
-                <p class="study-content iterate-text">This work also set the groundwork to implement the design systems for unified email across the company's products and services - including some others that I'm actively working through now.</p>
+                <p class="study-content outcome-text">Users now get both a more modern looking email and a more functional one. They can view that email across different screen sizes and devices, and they can access the data with their screen reader or keyboard. If their email client blocks images, they can still see the link to view their user’s quiz scores.</p>
+                <p class="study-content iterate-text">This work also built a foundation to implement a single unified system to manage email across all of the company's products and services.</p>
             </article>
         </article>
     </section>

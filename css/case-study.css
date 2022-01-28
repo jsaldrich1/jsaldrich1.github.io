@@ -8,7 +8,6 @@ header {
 
 .study-card {
     grid-column: 2 / 4;
-    /* margin: 3rem 2rem 3rem 2rem; */
     padding: 1rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -18,7 +17,6 @@ header {
     background-color: var(--white);
     padding: 1rem;
     border-radius: 1rem;
-    /* border: 1px solid var(--text); */
     box-shadow: 2px 4px 4px rgba(40, 40, 40, .2);
 }
 
@@ -46,6 +44,11 @@ header {
 .full-width-image {
     grid-column: 1 / 13;
     width: 100%;
+    box-shadow: 2px 4px 4px rgba(40, 40, 40, .20);
+}
+
+#img-email-details {
+    box-shadow: none;
 }
 
 .bear-bottom-left {
@@ -67,6 +70,10 @@ header {
 .bear-left {
     grid-column: 1 / 5;
     width: 100%;
+}
+
+#quiz-survey-q9 {
+    /* padding-top: 1rem; */
 }
 
 @media (max-width: 750px) {
