@@ -47,6 +47,10 @@ header {
     box-shadow: 2px 4px 4px rgba(40, 40, 40, .20);
 }
 
+#img-email-details {
+    box-shadow: none;
+}
+
 .bear-bottom-left {
     display: none;
     grid-column: 1 / 13;
