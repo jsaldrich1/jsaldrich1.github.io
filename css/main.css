@@ -48,6 +48,19 @@ header {
   grid-template-columns: repeat(12, 1fr);
 }
 
+.skip-nav-link {
+  position: absolute;
+  transform: translateY(-150%);
+  padding: 1rem;
+  text-decoration: none;
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.skip-nav-link:focus {
+  transform: translateY(0);
+}
+
 #header-area {
   max-width: 1200px;
   margin: auto;
