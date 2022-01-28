@@ -74,8 +74,9 @@
         <article class="study-card">
             <h2 class="study-card-h2">Problem</h2>
             <article class="study-container problem-statement">
-                <p class="study-content problem-text"><a href="https://www.techsmith.com/video-editor.html" target="_blank">Camtasia</a> users can add quizzing to their videos, allowing them to conduct surveys and test their user's understanding of their videos. But this must be done before producing and sharing to the web. Users are unable to add, revise, or update quizzing on their media after it is uploaded.</p>
-                <p class="study-content problem-text">I was on original team that implemented a web version for our corporate and education customers in <a href="https://www.techsmith.com/knowmia-education.html" target="_blank">Knowmia</a>. But it was built on a deprecated tech stacks and lacking parity to the desktop experience. So how could I take the existing experience and bring it up to standard and be available to users outside those walled garden environments?</p>
+                <p class="study-content problem-text"><a href="https://www.techsmith.com/video-editor.html" target="_blank">Camtasia</a> users can add quizzing to their videos, allowing them to conduct surveys, testing their user's understanding of their content. But this must be done before producing and sharing to the web. Users are unable to add, revise, or update quizzing on their media after it is uploaded.</p>
+                <p class="study-content problem-text">TechSmith does have a web option for editing quizzes, but it is only available for corporate and education customers in <a href="https://www.techsmith.com/knowmia-education.html" target="_blank">Knowmia</a>. This web version also needs updates in usability, security, and distribution.</p>
+                <p class="study-content problem-text">Two different options, both with drawbacks and disadvantages. But great opportunities to deliver a better experience for both our desktop and web users.</p>
             </article>
         </article>
         <article class="study-card">
@@ -89,12 +90,12 @@
 
             <article class="study-container journey">
                 <p class="study-content journey-text">I'm fortunate to have a history with the product, the services, and the customer base. So I had a good understanding of where to start the project given known issues and some customer feedback. I knew I wanted to have a few basic things for sure.</p>
-                <h3 class="study-content">1. SPA</h3>
-                <p class="study-content journey-text">It should be a Single Page App, a destination for doing work, that can be hosted in any of the web services that the company offers.</p>
+                <h3 class="study-content">1. Single Page Application</h3>
+                <p class="study-content journey-text">Rather than embedding a solution inside another page, making a Quiz Editor as a standalone application allows for more performant and accessible features. It also allows us to direct users from different products such as Knowmia and Screencast to a single experience for quizzing.</p>
                 <h3 class="study-content">2. Feature Parity</h3>
-                <p class="study-content journey-text">It should bridge the feature parity gap with the Camtasia desktop experience where possible, while also offering the flexibility the web provides.</p>
+                <p class="study-content journey-text">Users who were familiar with adding quizzes on desktop would find many features missing on the old web application. By making the web application just as robust as the desktop experience, it opened the door for users to publish videos and then come back to quizzing later, fix errors, and make updates as needed without needing to re-render or publish the video all over.</p>
                 <h3 class="study-content">3. Flexible & Accessible</h3>
-                <p class="study-content journey-text">Lastly, it should be built in a sustainable way, with usability and accessibility first.</p>
+                <p class="study-content journey-text">Lastly, it should be built in a sustainable way, with usability and accessibility first. Since we were building from the ground-up, I knew we had an opportunity to make a system that allowed screen readers, full keyboard access, and flexible screen sizes.</p>
             </article>
             <img src="/img/Quiz-Usability.png" class="full-width-image" alt="Quiz Editor pointing out elements that are fully keyboard accessible.">
             <img src="/img/Bear-Keyboard.png" class="bear-left study-content">
@@ -105,16 +106,16 @@
             <h2 class="study-card-h2">...& Unknowns</h2>
             <article class="study-container knowns-unknowns">
                 <h3 class="study-content">Existing Analytics</h3>
-                <p class="study-content knowns-text">There were a lot of questions still. So, to make sure we built the right thing for our users: I asked them what they needed.</p>
-                <p class="study-content knowns-text">The first thing I did was gather the analytics and data that we had available for current usage in our products and services. I found out how many Camtasia quiz reports were generated on average each day, and from that list was able to narrow down a few thousand email addresses of users who had opted into offering feedback on the service. </p>
+                <p class="study-content knowns-text">I had some information about existing customers and workflows, but there were still a lot of questions around some specific interactions and requirements. So, to make sure we would build the right thing for our users: I asked them.</p>
+                <p class="study-content knowns-text">The first thing I did was gather the analytics and data that we had available for current usage in our products and services. I found how many Camtasia quiz reports were generated on average each day, and from that list was able to narrow down a few thousand email addresses of users who had opted into offering feedback on the service. </p>
                 <h3 class="study-content">Email Campaign</h3>
-                <p class="study-content knowns-text">With this list at the ready, I composed a survey and reached out to about 2500 users. This survey had an impressive response rate, with over 250 people providing meaningful feedback. Most of the questions were open-ended and users took the time to write detailed accounts of their workflows and worries. I had a ton of data to work with. </p>
+                <p class="study-content knowns-text">With this list at the ready, I composed a survey with eight questions and reached out to about 2500 users. We got an impressive response rate. More than 10%, over 250 people provided meaningful feedback, and many expressed how important the service was to their work and success. Half of the questions were open-ended and users took the time to write detailed accounts of their workflows and worries. I had a ton of data to work with, and started trying out ideas into mockups and prototypes.</p>
             </article>
             <img src="/img/Quiz-Survey-Q9.png" class="full-width-image" alt="Question 9 - How important is it to you that you are able to view the results from your quiz immediately online? 60% of users responded Very Important or Extremely important.">
             
             <article class="study-container knowns-unknowns">
                 <h3 class="study-content">User Interviews</h3>
-                <p class="study-content knowns-text">Several respondants told me they would be happy to participate in user interviews for more context. So, with a group of excited educators and instructors happy to jump on a Zoom call, I made sure to have some prototypes ready to walk through and I got to interviewing. I conducted a number of user interviews where I was able to walk users through my ideas for workflows and prototypes of new designs. These interviews provide some of the best feedback for making difficult decisions, and I believe they are essential to making a product that will actually serve its userbase.</p>
+                <p class="study-content knowns-text">We also conducted user interviews where I was able to hear from educators and instructors directly. For these interviews, I made sure to have some prototypes ready to walk through as well. These interviews provide some of the best feedback for shedding light on problems and questions, and making difficult decisions. I believe they are essential to making the best product to serve its userbase.</p>
             </article>
         </article>
 
@@ -124,20 +125,12 @@
                 <p class="quote study-content quote-right">These interviews might just be the best part of the job. Seeing and hearing from users first hand doesn't just provide context, it invigorates and inspires.</p>
             </article>
             <img src="/img/Bear-Users.png" class="bear-left bear-bottom-left study-content">
-            
-            <h2 class="study-card-h2">Iterate & Improve</h2>
-
-            <article class="study-container iterate">
-                <p class="study-content outcome-text">A lesson in passion and perseverance. Just because this project was de-prioritized didn't mean I was giving up on it. I'm fortunate in my work to have "20% Time" - which let me continue advocating for, and working on this project on my own. And when you can show the impact a project like this has on users, it's not hard to rally peers to lend their 20% Time to help out.</p>
-                <p class="study-content iterate-text">Like all web products, this is a work in progress and there is always room for improving. Given the constraints in time and resources, it's moving along slowly - but steady. And there is so much promise on the horizon.</p>
-            </article>
-
             <h2 class="study-card-h2">Outcome</h2>
             <img src="/img/SecondQuizFade.gif" class="full-width-image" alt="Animation of user adding a quiz to a video through the new user interface.">
-
             <article class="study-container outcome">
-                <p class="study-content outcome-text">A web application that pushed the boundaries of interactive video content. This application allows users to bring content produced within Camtasia, or create entirely on the web - without compromising functionality.</p>
-                <p class="study-content outcome-text">In today's virtual-first world, it is  more important than ever having these meaningful interactions, allowing educators to be successful. And knowing that the work I've done could help a student succeed is an unbeatable reward.</p>
+                <p class="study-content outcome-text">A web application that pushes the boundaries of interactive video content. Users can add and edit quizzes and surveys to any video. Users are able to share videos made with Camtasia, or upload and add quizzing to any video they might have from their computer or phone.</p>
+                <p class="study-content outcome-text">In today's virtual-first world, it is more important than ever having these meaningful interactions, allowing educators to be successful. And knowing that the work I've done could help a student succeed is an unbeatable reward.</p>
+                <p class="study-content outcome-text">This project is in active development, and we continue to implement feedback and deliver incremental improvements as we can.</p>
             </article>
         </article>
     </section>
